@@ -1,5 +1,5 @@
-const PATH = {
+export const PATH = {
   POSTS: "/posts",
   CONTACT: "/contact",
-  HOME:"/"
+  HOME:"/",
 };

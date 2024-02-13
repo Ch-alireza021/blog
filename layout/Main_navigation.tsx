@@ -1,14 +1,13 @@
 import React from "react";
 import Logo from "./Logo";
 import Link from "next/link";
+import { PATH } from "@/config/config";
 
 const MainNavigation = () => {
   return (
     <header>
       <Link href={PATH.HOME}>
-        <a>
-          <Logo />
-        </a>
+        <Logo />
       </Link>
       <nav>
         <ul>
